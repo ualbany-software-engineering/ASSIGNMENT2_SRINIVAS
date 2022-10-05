@@ -1,5 +1,5 @@
 import { useState } from 'react';
-
+import News from './news';
 
 
 function App() {
@@ -24,7 +24,7 @@ function App() {
             <div className="row mt-3">
                 <div className="col-md-auto">
                     <img
-                        src="https://cdn2.vectorstock.com/i/thumb-large/46/76/person-gray-photo-placeholder-man-material-design-vector-23804676.jpg"
+                        src="/assets/profile.jpeg"
                         height="300"
                         width="300"
                         alt="profile pic"
@@ -59,6 +59,7 @@ function App() {
                     />
                 </div>
             </form>
+            <News />
         </div>
     );
 }
