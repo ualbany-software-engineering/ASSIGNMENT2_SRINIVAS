@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import Addition from './Addition';
 import News from './news';
 
 
@@ -60,6 +61,7 @@ function App() {
                 </div>
             </form>
             <News />
+            <Addition />
         </div>
     );
 }
