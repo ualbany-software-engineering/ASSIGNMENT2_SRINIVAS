@@ -5,7 +5,7 @@ const News = () => {
 
     useEffect(() => {
         fetch(
-            "https://newsapi.org/v2/top-headlines?country=us&apiKey=11bac121ba934559837336398c4bc599")
+            "http://newsapi.org/v2/top-headlines?country=us&apiKey=11bac121ba934559837336398c4bc599")
             .then((res) => res.json())
             .then((res) => {
                 const filteredData = res?.articles?.map((article) => ({
