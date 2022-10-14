@@ -18,7 +18,7 @@ const Addition = () => {
 
         if (firstNumber && secondNumber) {
             fetch(
-                `http://localhost:8080/add-numbers?firstParam=${firstNumber}&secondParam=${secondNumber}`
+                `http://44.201.81.241:8081/add-numbers?firstParam=${firstNumber}&secondParam=${secondNumber}`
             )
                 .then((res) => res.json())
                 .then((res) => {
