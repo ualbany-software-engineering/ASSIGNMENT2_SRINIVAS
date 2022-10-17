@@ -18,7 +18,7 @@ const Addition = () => {
 
         if (firstNumber && secondNumber) {
             fetch(
-                `http://44.201.81.241:8081/add-numbers?firstParam=${firstNumber}&secondParam=${secondNumber}`
+                `http://ec2-44-201-81-241.compute-1.amazonaws.com:8081/add-numbers?firstParam=${firstNumber}&secondParam=${secondNumber}`
             )
                 .then((res) => res.json())
                 .then((res) => {
